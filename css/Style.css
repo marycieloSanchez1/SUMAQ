@@ -3,6 +3,7 @@
 .navbar {
   padding: 2rem;
   background-color: #b59e85;
+  border: none;
 }
 
 .navbar-collapse {
@@ -18,13 +19,65 @@
   margin-right: 20px;
 }
 
-.navbar-toggler{
+.navbar-toggler {
   border: none;
 }
 
-@media screen and (max-width: 767px) {
-  .navbar-collapse img{
-    margin-left: 20px;
-    margin-right: 20px;
+.md-input {
+  width: 500px;
+  height: 30px;
+}
+
+/*buscador*/
+.box-search {
+  height: 4vh;
+  display: flex;
+  margin: 6vh;
+  cursor: pointer;
+  padding: 10px 20px;
+  background: #bb8e66;
+  border-radius: 15px;
+  align-items: center;
+  box-shadow: 0 10px 25px rgb(0, 0, 0, 0.1);
+}
+
+.box-search input {
+  border: none;
+  background: transparent;
+}
+
+.container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.Texto {
+  margin-top: 20vh;
+  text-align: center;
+  max-width: 100%;
+  margin-right: auto;
+}
+
+.Bozz{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Bozz img{
+  margin-top: 2vh;
+  width: 55vh;
+}
+
+@media screen and (max-width: 870px) {
+  .md-input {
+    width: 250px;
+  }
+  .Texto{
+    text-align: center;
+  max-width: 100%;
+  }
+  .Bozz img{
+    margin-top: 10vh;
+    width: 50vh;
   }
 }
