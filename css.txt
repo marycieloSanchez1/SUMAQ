@@ -1,0 +1,32 @@
+.container-fluid {
+  display: flex;
+  justify-content: center;
+}
+
+.Texto {
+  margin-top: 8vh;
+  text-align: center;
+  max-width: 50%; 
+  margin-right: auto;
+}
+
+.Bozz {
+  margin-left: auto;
+}
+.Bozz img{
+  width: 50vh;
+}
+
+@media screen and (max-width: 767px) {
+  .md-input {
+    width: 250px;
+  }
+  .Texto{
+    text-align: center;
+  max-width: 100%;
+  }
+
+  .Bozz img{
+    margin-top: 50vh;
+  }
+}
