@@ -79,18 +79,31 @@
 height: 35vh;
 width: 35vh;
 }
+.Product-reciente{
+  padding: 40px;
+}
+.Product-reciente img{
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+  display: block;
+}
+.Product-container{
+  padding-top: 60px;
+  margin-bottom: 40px;
+}
 
 @media screen and (max-width: 770px) {
   .md-input {
     width: 250px;
-  }
+  }    
   .Texto{
     margin-top: 5vh;
     text-align: center;
-  max-width: 100%;
+    max-width: 100%;
   }
   .Bozz{
-    left:3vh;
+    left:2vh;
   }
   .Bozz img{
     margin-top: 10vh;
@@ -101,3 +114,5 @@ width: 35vh;
     width: 22vh;
   }
 }
+
+
